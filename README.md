@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in Java. The bug is in a simple for loop iterating over an array.  The loop condition incorrectly includes the last element, causing an ArrayIndexOutOfBoundsException. The solution shows the corrected loop with the condition `i < arr.length`.
